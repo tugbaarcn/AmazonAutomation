@@ -12,6 +12,7 @@ public class HomePageTest {
 
     HomePage homePage = new HomePage();
 
+
     @Test
     public void homePageTest() throws InterruptedException {
         Driver.getDriver().get(ConfigurationReader.getProperty("amazon_url"));
